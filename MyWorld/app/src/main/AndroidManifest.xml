@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myworld">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home.ContentActivity" />
+        <activity android:name=".MainActivity.ActivityNearby" />
+        <activity android:name=".MainActivity.ActivityMessage" />
+        <activity android:name=".MainActivity.ActivityAddressBook" />
+        <activity android:name=".MainActivity.ActivitySkill" />
+        <activity android:name=".MainActivity.ActivityMe" />
+        <activity android:name=".Nearby.ReadingActivity" />
+        <activity android:name=".Nearby.HeroActivity" />
+        <activity android:name=".Nearby.MonsterActivity" />
+        <activity android:name=".Nearby.SceneActivity"></activity>
+    </application>
+
+</manifest>

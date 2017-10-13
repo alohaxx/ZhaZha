@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_title"/>
+
+    <ImageView
+        android:id="@+id/img_nearby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_nearby_main" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.percent.PercentFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_reading"
+                android:layout_gravity="left|top"
+                app:layout_widthPercent="50%"
+                app:layout_heightPercent="50%"
+                android:background="@drawable/img_nearby_reading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_hero"
+                android:layout_gravity="right|top"
+                app:layout_widthPercent="50%"
+                app:layout_heightPercent="50%"
+                android:background="@drawable/img_nearby_hero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_monster"
+                android:layout_gravity="left|bottom"
+                app:layout_widthPercent="50%"
+                app:layout_heightPercent="50%"
+                android:background="@drawable/img_nearby_monster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_scene"
+                android:layout_gravity="right|bottom"
+                app:layout_widthPercent="50%"
+                app:layout_heightPercent="50%"
+                android:background="@drawable/img_nearby_scene"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </android.support.percent.PercentFrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

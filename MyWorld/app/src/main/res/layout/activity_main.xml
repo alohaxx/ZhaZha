@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_login">
+
+    <LinearLayout
+        android:id="@+id/lay_loginSelect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/btn_wechatLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_login_wechat"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="50dp" />
+
+        <Button
+            android:id="@+id/btn_qqLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_login_qq"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="75dp"
+            android:onClick="loginSelect"/>
+
+    </LinearLayout>
+
+</LinearLayout>

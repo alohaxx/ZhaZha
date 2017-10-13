@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyWorld</string>
+
+    <string name="me">个人资料</string>
+    <string name="addressBook">通讯录</string>
+    <string name="skill">技能</string>
+    <string name="message">消息</string>
+    <string name="nearby">附近</string>
+    <string name="readAndAnswer">阅读并答题</string>
+    <string name="rankList">排行榜</string>
+</resources>
